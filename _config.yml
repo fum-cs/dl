@@ -1,8 +1,22 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+title: Deep Learning Course
+tagline: Course website of DL, FUM
+description: DL Course website, Fall 2024, Dr. M. Amintoosi
+author: M. Amintoosi
+baseurl: '/dl' # the subpath of your site, e.g. /blog
+url: 'https://fum-cs.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 
-url: https://just-the-docs.github.io
 
+# Theme settings
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+permalink: pretty
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  CS Dept.:
+    - 'https://fumcs.github.io'
+  Mahmood Amintoosi:
+    - 'https://mamintoosi.github.io'
+  Class Repository on GitHub:
+    - 'https://github.com/fum-cs/dl'
+footer_content:
